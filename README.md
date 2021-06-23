@@ -1,11 +1,11 @@
 <h1 align="center">
-Mason bricks
+Mason bloc bricks
 </h1>
 
 <p align="center">
-    <a href="https://github.com/PoloLacoste/mason_bricks/issues/new/choose">Report Bug</a>
+    <a href="https://github.com/PoloLacoste/mason_bloc_bricks/issues/new/choose">Report Bug</a>
     ·
-    <a href="https://github.com/PoloLacoste/mason_bricks/issues/new/choose">Request Feature</a>
+    <a href="https://github.com/PoloLacoste/mason_bloc_bricks/issues/new/choose">Request Feature</a>
 </p>
 
 ## 🚧 Requirements
@@ -21,8 +21,8 @@ dart pub global activate mason
 
 Install the bricks
 ```sh
-mason i https://github.com/PoloLacoste/mason_bricks --path bricks/bloc_page
-mason i https://github.com/PoloLacoste/mason_bricks --path bricks/cubit_page
+mason i https://github.com/PoloLacoste/mason_bloc_bricks --path bricks/bloc_page
+mason i https://github.com/PoloLacoste/mason_bloc_bricks --path bricks/cubit_page
 ```
 
 ## 🧱 Usage
