@@ -1,0 +1,4 @@
+name: cubit_page
+description: A brick to create a page with view and cubit
+vars:
+  - name
