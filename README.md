@@ -119,4 +119,6 @@ class HomeView extends StatelessWidget {
 }
 ```
 
-###
+## 🙇 Special Thanks
+
+- [Felix Angelov ](https://github.com/felangel) for the amazing [mason](https://github.com/felangel/mason) cli.
