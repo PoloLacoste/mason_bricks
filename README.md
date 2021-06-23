@@ -26,7 +26,7 @@ mason i https://github.com/PoloLacoste/mason_bricks
 
 ## 🧱 Usage
 
-### Cubit page
+### 📄 Cubit page
 
 ```sh
 mason make cubit_page -o ./your-path
@@ -45,7 +45,7 @@ Generated folder architecture (example with `home`) :
     │   └── home.dart
     └── ...
 
-### Bloc page
+### 📄 Bloc page
 
 ```sh
 mason make bloc_page -o ./your-path
@@ -64,3 +64,58 @@ Generated folder architecture (example with `home`) :
     │   │   └── home_view.dart
     │   └── home.dart
     └── ...
+
+## Example
+
+### home_page.dart
+
+```dart
+import 'package:flutter/material.dart';
+
+import 'package:flutter_bloc/flutter_bloc.dart';
+
+import '../home.dart';
+import 'home_view.dart';
+
+class HomePage extends StatelessWidget {
+  const HomePage({
+    Key? key,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return BlocProvider(
+      create: (context) => HomeCubit(
+        context: context,
+      ),
+      child: const HomeView(),
+    );
+  }
+}
+```
+
+### home_view.dart
+
+```dart
+import 'package:flutter/material.dart';
+
+import 'package:flutter_bloc/flutter_bloc.dart';
+
+import '../home.dart';
+
+class HomeView extends StatelessWidget {
+  const HomeView({
+    Key? key,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    final cubit = context.read<HomeCubit>();
+    return Container(
+      child: null,
+    );
+  }
+}
+```
+
+###
