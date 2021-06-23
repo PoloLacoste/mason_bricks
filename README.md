@@ -21,7 +21,8 @@ dart pub global activate mason
 
 Install the bricks
 ```sh
-mason i https://github.com/PoloLacoste/mason_bricks
+mason i https://github.com/PoloLacoste/mason_bricks --path bricks/bloc_page
+mason i https://github.com/PoloLacoste/mason_bricks --path bricks/cubit_page
 ```
 
 ## 🧱 Usage
