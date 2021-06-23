@@ -30,7 +30,7 @@ mason i https://github.com/PoloLacoste/mason_bricks --path bricks/cubit_page
 ### 📄 Cubit page
 
 ```sh
-mason make cubit_page -o ./your-path
+mason make cubit_page -o ./output-path
 ```
 
 Generated folder architecture (example with `home`) :
@@ -49,7 +49,7 @@ Generated folder architecture (example with `home`) :
 ### 📄 Bloc page
 
 ```sh
-mason make bloc_page -o ./your-path
+mason make bloc_page -o ./output-path
 ```
 
 Generated folder architecture (example with `home`) :
