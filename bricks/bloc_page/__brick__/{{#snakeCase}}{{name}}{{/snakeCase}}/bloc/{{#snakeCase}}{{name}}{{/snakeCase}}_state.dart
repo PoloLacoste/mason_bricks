@@ -1,4 +1,4 @@
-part of '{{#snakeCase}}{{name}}{{/snakeCase}}_cubit.dart';
+part of '{{#snakeCase}}{{name}}{{/snakeCase}}_bloc.dart';
 
 abstract class {{#pascalCase}}{{name}}{{/pascalCase}}State extends Equatable {
   const {{#pascalCase}}{{name}}{{/pascalCase}}State();

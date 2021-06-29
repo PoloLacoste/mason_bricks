@@ -13,9 +13,7 @@ class {{#pascalCase}}{{name}}{{/pascalCase}}Page extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
-      create: (context) => {{#pascalCase}}{{name}}{{/pascalCase}}Cubit(
-        context: context,
-      ),
+      create: (context) => {{#pascalCase}}{{name}}{{/pascalCase}}Cubit(),
       child: const {{#pascalCase}}{{name}}{{/pascalCase}}View(),
     );
   }
