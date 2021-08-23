@@ -1,7 +1,9 @@
 bricks:
   bloc_page:
-    path: bricks\bloc_page
+    path: bricks/bloc_page
   cubit_page:
-    path: bricks\cubit_page
+    path: bricks/cubit_page
   app:
-    path: bricks\app
+    path: bricks/app
+  app_addons:
+    path: bricks/app_addons

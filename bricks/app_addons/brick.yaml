@@ -1,0 +1,4 @@
+name: app_addons
+description: This brick depends on the 'app' brick. Add some dependencies and services.
+vars:
+  - name

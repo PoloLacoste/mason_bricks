@@ -72,7 +72,7 @@ Generated folder architecture (example with `home`) :
 Simple clean architecture app, inspired by [very_good_cli](https://github.com/VeryGoodOpenSource/very_good_cli) and [resocoder](https://resocoder.com/2019/08/27/flutter-tdd-clean-architecture-course-1-explanation-project-structure/).
 
 ```sh
-mason make app -o ./output-path
+mason make app -o ./output-path --on-conflict overwrite
 ```
 
 Generated folder architecture:
@@ -107,58 +107,12 @@ Generated folder architecture:
     └── l10n.yaml
     └── pubspec.yaml
 
-## Example
+### App addons (require [App](###App))
 
-### home_page.dart
-
-```dart
-import 'package:flutter/material.dart';
-
-import 'package:flutter_bloc/flutter_bloc.dart';
-
-import '../home.dart';
-import 'home_view.dart';
-
-class HomePage extends StatelessWidget {
-  const HomePage({
-    Key? key,
-  }) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return BlocProvider(
-      create: (context) => HomeCubit(
-        context: context,
-      ),
-      child: const HomeView(),
-    );
-  }
-}
-```
-
-### home_view.dart
-
-```dart
-import 'package:flutter/material.dart';
-
-import 'package:flutter_bloc/flutter_bloc.dart';
-
-import '../home.dart';
-
-class HomeView extends StatelessWidget {
-  const HomeView({
-    Key? key,
-  }) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    final cubit = context.read<HomeCubit>();
-    return Container(
-      child: null,
-    );
-  }
-}
-```
+Adding:
+- [bot_toast](https://pub.dev/packages/bot_toast) : Customize messages (info, success, warning, error).
+- [bitsdojo_window](https://pub.dev/packages/bitsdojo_window) : Customize flutter window to adapt to windows, linux and macOS
+- [sizer](https://pub.dev/packages/sizer) : Responsive
 
 ## 🙇 Special Thanks
 
