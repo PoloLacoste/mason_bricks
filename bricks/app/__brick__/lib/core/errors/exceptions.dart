@@ -1,3 +1,1 @@
-class CoreException implements Exception {
-  const CoreException(): super();
-}
+export 'exceptions/core_exceptions.dart';
