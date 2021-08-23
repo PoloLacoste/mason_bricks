@@ -1,0 +1,4 @@
+name: app
+description: A brick to create a clean architecture app
+vars:
+  - name

@@ -3,3 +3,5 @@ bricks:
     path: bricks\bloc_page
   cubit_page:
     path: bricks\cubit_page
+  app:
+    path: bricks\app
