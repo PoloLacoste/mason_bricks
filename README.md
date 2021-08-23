@@ -24,6 +24,7 @@ Install the bricks
 mason i https://github.com/PoloLacoste/mason_bricks --path bricks/bloc_page
 mason i https://github.com/PoloLacoste/mason_bricks --path bricks/cubit_page
 mason i https://github.com/PoloLacoste/mason_bricks --path bricks/app
+mason i https://github.com/PoloLacoste/mason_bricks --path bricks/app_addons
 ```
 
 ## 🧱 Usage
