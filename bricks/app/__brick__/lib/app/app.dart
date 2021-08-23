@@ -24,9 +24,7 @@ class App extends StatelessWidget {
       color: Colors.blue,
       builder: (context, child) {
         // inject l10n in get it
-        if (!locator.isRegistered(
-          instance: context.l10n,
-        )) {
+        if (!locator.isRegistered<AppLocalizations>()) {
           locator.registerSingleton(context.l10n);
         }
 
