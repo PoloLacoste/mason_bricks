@@ -88,21 +88,20 @@ Generated folder architecture:
     │   │   ├── errors
     │   │   ├── services
     │   │   └── locator.dart
+    │   ├── data
+    |   |   ├── datasources
+    |   |   ├── models
+    |   │   └── repositories
+    │   ├── domain
+    |   |   ├── entities
+    |   |   ├── repositories
+    |   │   └── services
     │   ├── l10n
     │   │   ├── arb
     │   │   └── l10n.dart
     │   ├── presentation
     │   │   ├── pages
     │   │   └── widgets
-    │   ├── shared
-    │   │   ├── data
-    |   |   |   ├── datasources
-    |   |   |   ├── models
-    |   │   │   └── repositories
-    │   │   └── domain
-    |   |       ├── entities
-    |   |       ├── repositories
-    |   │       └── services
     │   └── main.dart
     └── analysis_options.yaml
     └── l10n.yaml
