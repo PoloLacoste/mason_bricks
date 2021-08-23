@@ -24,6 +24,7 @@ Install the bricks
 mason i https://github.com/PoloLacoste/mason_bricks --path bricks/bloc_page
 mason i https://github.com/PoloLacoste/mason_bricks --path bricks/cubit_page
 mason i https://github.com/PoloLacoste/mason_bricks --path bricks/app
+mason i https://github.com/PoloLacoste/mason_bricks --path bricks/app_addons
 ```
 
 ## 🧱 Usage
@@ -107,7 +108,7 @@ Generated folder architecture:
     └── l10n.yaml
     └── pubspec.yaml
 
-### App addons (require [App](###App))
+### App addons (require [App](#-app))
 
 Adding:
 - [bot_toast](https://pub.dev/packages/bot_toast) : Customize messages (info, success, warning, error).
