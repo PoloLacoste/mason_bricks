@@ -1,1 +1,1 @@
-export 'exceptions/core_exceptions.dart';
+export 'exceptions/core_exception.dart';
