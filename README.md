@@ -107,6 +107,12 @@ Generated folder architecture:
     └── l10n.yaml
     └── pubspec.yaml
 
+After that you will need to generate the routes of the package `auto_route`.
+
+```sh
+flutter pub run build_runner build
+```
+
 ## 🙇 Special Thanks
 
 - [Felix Angelov ](https://github.com/felangel) for the amazing [mason](https://github.com/felangel/mason) cli.
