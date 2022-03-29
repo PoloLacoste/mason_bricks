@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_localizations/flutter_localizations.dart';
-
 import 'package:{{#snakeCase}}{{name}}{{/snakeCase}}/core/constants/app.dart';
 import 'package:{{#snakeCase}}{{name}}{{/snakeCase}}/core/locator.dart';
 import 'package:{{#snakeCase}}{{name}}{{/snakeCase}}/l10n/l10n.dart';
@@ -11,10 +9,10 @@ import 'router.dart';
 class App extends StatelessWidget {
   const App({
     Key? key,
-    required this.appRouter,
+    required this.router,
   }) : super(key: key);
 
-  final AppRouter appRouter;
+  final AppRouter router;
 
   @override
   Widget build(BuildContext context) {
@@ -30,15 +28,12 @@ class App extends StatelessWidget {
 
         return child!;
       },
-      routerDelegate: appRouter.delegate(
+      routerDelegate: router.delegate(
         navigatorObservers: () => [],
       ),
-      localizationsDelegates: const [
-        AppLocalizations.delegate,
-        GlobalMaterialLocalizations.delegate,
-      ],
+      localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,
-      routeInformationParser: appRouter.defaultRouteParser(),
+      routeInformationParser: router.defaultRouteParser(),
     );
   }
 }
