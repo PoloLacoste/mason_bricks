@@ -5,28 +5,23 @@ import 'package:get_it/get_it.dart';
 import 'services/core_service.dart';
 
 // datasources
-import '../data/datasources/data_source_impl.dart';
-import '../data/datasources/data_source.dart';
+import 'package:{{#snakeCase}}{{name}}{{/snakeCase}}/data/datasources/data_source.dart';
 // repositories
-import '../data/repositories/repository_impl.dart';
-import '../domain/repositories/repository.dart';
+import 'package:{{#snakeCase}}{{name}}{{/snakeCase}}/data/repositories/repository_impl.dart';
+import 'package:{{#snakeCase}}{{name}}{{/snakeCase}}/domain/repositories/repository.dart';
 // services
-import '../domain/services/domain_service_impl.dart';
-import '../domain/services/domain_service.dart';
+import 'package:{{#snakeCase}}{{name}}{{/snakeCase}}/domain/services/domain_service.dart';
 
 // core
 // services
 export 'services/core_service.dart';
 
 // datasources
-export '../data/datasources/data_source_impl.dart';
-export '../data/datasources/data_source.dart';
+export 'package:{{#snakeCase}}{{name}}{{/snakeCase}}/data/datasources/data_source.dart';
 // repositories
-export '../data/repositories/repository_impl.dart';
-export '../domain/repositories/repository.dart';
+export 'package:{{#snakeCase}}{{name}}{{/snakeCase}}/domain/repositories/repository.dart';
 // services
-export '../domain/services/domain_service_impl.dart';
-export '../domain/services/domain_service.dart';
+export 'package:{{#snakeCase}}{{name}}{{/snakeCase}}/domain/services/domain_service.dart';
 
 final GetIt locator = GetIt.instance;
 
@@ -40,11 +35,15 @@ Future<void> configure() async {
   locator.registerLazySingleton(() => CoreService());
 
   // datasources
-  locator.registerLazySingleton<DataSource>(() => DataSourceImpl());
+  locator.registerLazySingleton(() => DataSource());
+
   // repositories
   locator.registerLazySingleton<Repository>(() => RepositoryImpl());
-  // services
-  locator.registerLazySingleton<DomainService>(() => DomainServiceImpl());
 
-  await locator.allReady(ignorePendingAsyncCreation: false);
+  // services
+  locator.registerLazySingleton(() => DomainService());
+
+  await locator.allReady(
+    ignorePendingAsyncCreation: false,
+  );
 }

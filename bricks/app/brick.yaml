@@ -1,4 +1,6 @@
 name: app
 description: A brick to create a clean architecture app
+version: 0.1.0
 vars:
-  - name
+  name:
+    type: string

@@ -21,10 +21,9 @@ dart pub global activate mason
 
 Install the bricks
 ```sh
-mason i https://github.com/PoloLacoste/mason_bricks --path bricks/bloc_page
-mason i https://github.com/PoloLacoste/mason_bricks --path bricks/cubit_page
-mason i https://github.com/PoloLacoste/mason_bricks --path bricks/app
-mason i https://github.com/PoloLacoste/mason_bricks --path bricks/app_addons
+mason add -g cubit_page --git-url https://github.com/PoloLacoste/mason_bricks --git-path bricks/cubit_page
+mason add -g bloc_page --git-url https://github.com/PoloLacoste/mason_bricks --git-path bricks/bloc_page
+mason add -g app --git-url https://github.com/PoloLacoste/mason_bricks --git-path bricks/app
 ```
 
 ## 🧱 Usage
@@ -107,13 +106,6 @@ Generated folder architecture:
     └── analysis_options.yaml
     └── l10n.yaml
     └── pubspec.yaml
-
-### App addons (require [App](#-app))
-
-Adding:
-- [bot_toast](https://pub.dev/packages/bot_toast) : Customize messages (info, success, warning, error).
-- [bitsdojo_window](https://pub.dev/packages/bitsdojo_window) : Customize flutter window to adapt to windows, linux and macOS
-- [sizer](https://pub.dev/packages/sizer) : Responsive
 
 ## 🙇 Special Thanks
 

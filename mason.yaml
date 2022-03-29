@@ -5,5 +5,3 @@ bricks:
     path: bricks/cubit_page
   app:
     path: bricks/app
-  app_addons:
-    path: bricks/app_addons

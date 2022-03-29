@@ -1,5 +1,7 @@
 import 'package:{{#snakeCase}}{{name}}{{/snakeCase}}/l10n/l10n.dart';
 
+export 'package:{{#snakeCase}}{{name}}{{/snakeCase}}/l10n/l10n.dart';
+
 abstract class Failure {
   const Failure({
     this.message,

@@ -15,9 +15,8 @@ void main() async {
 
   await configure();
 
-  final AppRouter appRouter = AppRouter();
+  final router = AppRouter();
 
-  Bloc.observer = AppBlocObserver();
   FlutterError.onError = (details) {
     log(
       details.exceptionAsString(),
@@ -25,13 +24,10 @@ void main() async {
     );
   };
 
-  runZonedGuarded(
+  BlocOverrides.runZoned(
     () => runApp(App(
-      appRouter: appRouter,
+      router: router,
     )),
-    (error, stackTrace) => log(
-      error.toString(),
-      stackTrace: stackTrace,
-    ),
+    blocObserver: AppBlocObserver(),
   );
 }

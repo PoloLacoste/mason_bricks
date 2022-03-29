@@ -1,3 +1,3 @@
-abstract class DomainService {
+class DomainService {
 
 }
