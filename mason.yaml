@@ -5,3 +5,5 @@ bricks:
     path: bricks/cubit_page
   app:
     path: bricks/app
+  json_dto:
+    path: bricks/json_dto
