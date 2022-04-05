@@ -114,6 +114,37 @@ After that you will need to generate the routes of the package `auto_route`.
 flutter pub run build_runner build
 ```
 
+### 📄 JSON Dto
+
+A simple JSON Data Object using `json_annotation` and `json_serializable`.
+
+```sh
+mason make json_dto -o ./output-path
+```
+
+Generated file example with the name `ExampleDto`:
+
+```dart
+import 'package:json_annotation/json_annotation.dart';
+
+part 'example_dto.g.dart';
+
+@JsonSerializable()
+class ExampleDto {
+  ExampleDto();
+
+  factory ExampleDto.fromJson(Map<String, dynamic> json) =>
+      _$ExampleDtoFromJson(json);
+  Map<String, dynamic> toJson() => _$ExampleDtoToJson(this);
+}
+```
+
+After that you will need to generate the `fromJson` and `toJson` methods of the model using the command below.
+
+```sh
+flutter pub run build_runner build
+```
+
 ## 🙇 Special Thanks
 
-- [Felix Angelov ](https://github.com/felangel) for the amazing [mason](https://github.com/felangel/mason) cli.
+- [Felix Angelov ](https://github.com/felangel) for the amazing [mason](https://github.com/felangel/mason).
