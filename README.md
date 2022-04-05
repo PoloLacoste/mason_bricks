@@ -1,5 +1,5 @@
 <h1 align="center">
-Mason bloc bricks
+Mason bricks
 </h1>
 
 <p align="center">
@@ -24,6 +24,7 @@ Install the bricks
 mason add -g cubit_page --git-url https://github.com/PoloLacoste/mason_bricks --git-path bricks/cubit_page
 mason add -g bloc_page --git-url https://github.com/PoloLacoste/mason_bricks --git-path bricks/bloc_page
 mason add -g app --git-url https://github.com/PoloLacoste/mason_bricks --git-path bricks/app
+mason add -g json_dto --git-url https://github.com/PoloLacoste/mason_bricks --git-path bricks/json_dto
 ```
 
 ## 🧱 Usage
