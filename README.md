@@ -16,7 +16,7 @@ Mason bricks
 
 Install [mason](https://pub.dev/packages/mason)
 ```sh
-dart pub global activate mason
+dart pub global activate mason_cli
 ```
 
 Install the bricks
