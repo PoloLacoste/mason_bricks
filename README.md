@@ -38,7 +38,7 @@ mason add -g <BRICK>
 | [`cubit_page`](https://github.com/PoloLacoste/mason_bricks/tree/main/bricks/cubit_page) | Generate a new Cubit page                     |
 | [`bloc_page`](https://github.com/PoloLacoste/mason_bricks/tree/main/bricks/bloc_page)   | Generate a new Bloc page                      |
 | [`json_dto`](https://github.com/PoloLacoste/mason_bricks/tree/main/bricks/json_dto)     | Generate a new JSON Dto                       |
-| [`app`]((https://github.com/PoloLacoste/mason_bricks/tree/main/bricks/app))             | Generate a new Clean Architecture Application |
+| [`app`](https://github.com/PoloLacoste/mason_bricks/tree/main/bricks/app)             | Generate a new Clean Architecture Application |
 
 
 ## 🙇 Special Thanks
