@@ -1,8 +1,8 @@
 name: json_dto
-description: A brick to generate a JSON Dto used with json_serializable
+description: A brick to generate a JSON Dto using json_serializable
 repository: https://github.com/PoloLacoste/mason_bricks/tree/main/bricks/json_dto
 
-version: 0.1.0
+version: 0.1.1
 
 environment:
   mason: ">=0.1.0-dev <0.1.0"
