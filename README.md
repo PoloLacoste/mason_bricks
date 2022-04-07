@@ -27,123 +27,12 @@ mason add -g app --git-url https://github.com/PoloLacoste/mason_bricks --git-pat
 mason add -g json_dto --git-url https://github.com/PoloLacoste/mason_bricks --git-path bricks/json_dto
 ```
 
-## 🧱 Usage
+## 🧱 Bricks documentation
 
-### 📄 Cubit page
-
-```sh
-mason make cubit_page -o ./output-path
-```
-
-Generated folder architecture (example with `home`) :
-
-    .
-    ├── home
-    │   ├── cubit
-    │   │   ├── home_cubit.dart
-    │   │   └── home_state.dart
-    │   ├── view
-    │   │   ├── home_page.dart
-    │   │   └── home_view.dart
-    │   └── home.dart
-    └── ...
-
-### 📄 Bloc page
-
-```sh
-mason make bloc_page -o ./output-path
-```
-
-Generated folder architecture (example with `home`) :
-
-    .
-    ├── home
-    │   ├── bloc
-    │   │   ├── home_bloc.dart
-    │   │   ├── home_event.dart
-    │   │   └── home_state.dart
-    │   ├── view
-    │   │   ├── home_page.dart
-    │   │   └── home_view.dart
-    │   └── home.dart
-    └── ...
-
-### 📄 App
-
-Simple clean architecture app, inspired by [very_good_cli](https://github.com/VeryGoodOpenSource/very_good_cli) and [resocoder](https://resocoder.com/2019/08/27/flutter-tdd-clean-architecture-course-1-explanation-project-structure/).
-
-```sh
-mason make app -o ./output-path --on-conflict overwrite
-```
-
-Generated folder architecture:
-
-    .
-    ├── lib
-    │   ├── app
-    │   │   ├── app_bloc_observer.dart
-    │   │   ├── app.dart
-    │   │   └── router.dart
-    │   ├── core
-    │   │   ├── constants
-    │   │   ├── errors
-    │   │   ├── services
-    │   │   └── locator.dart
-    │   ├── data
-    |   |   ├── datasources
-    |   |   ├── models
-    |   │   └── repositories
-    │   ├── domain
-    |   |   ├── entities
-    |   |   ├── repositories
-    |   │   └── services
-    │   ├── l10n
-    │   │   ├── arb
-    │   │   └── l10n.dart
-    │   ├── presentation
-    │   │   ├── pages
-    │   │   └── widgets
-    │   └── main.dart
-    └── analysis_options.yaml
-    └── l10n.yaml
-    └── pubspec.yaml
-
-After that you will need to generate the routes of the package `auto_route`.
-
-```sh
-flutter pub run build_runner build
-```
-
-### 📄 JSON Dto
-
-A simple JSON Data Object using `json_annotation` and `json_serializable`.
-
-```sh
-mason make json_dto -o ./output-path
-```
-
-Generated file example with the name `ExampleDto`:
-
-```dart
-import 'package:json_annotation/json_annotation.dart';
-
-part 'example_dto.g.dart';
-
-@JsonSerializable()
-class ExampleDto {
-  ExampleDto();
-
-  factory ExampleDto.fromJson(Map<String, dynamic> json) =>
-      _$ExampleDtoFromJson(json);
-  Map<String, dynamic> toJson() => _$ExampleDtoToJson(this);
-}
-```
-
-After that you will need to generate the `fromJson` and `toJson` methods of the model using the command below.
-
-```sh
-flutter pub run build_runner build
-```
+* [Cubit page](https://github.com/PoloLacoste/mason_bricks/bricks/cubit_page/README.md)
+* [Bloc page](https://github.com/PoloLacoste/mason_bricks/bricks/bloc_page/README.md)
+* [Clean Architecture Application](https://github.com/PoloLacoste/mason_bricks/bricks/app/README.md)
+* [JSON Dto](https://github.com/PoloLacoste/mason_bricks/bricks/json_dto/README.md)
 
 ## 🙇 Special Thanks
 
