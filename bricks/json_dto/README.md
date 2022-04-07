@@ -4,7 +4,7 @@ A simple JSON Data Object using `json_annotation` and `json_serializable` packag
 
 ## 🚧 Requirements
 
-Make sure you have the [`json_serializable`][1] and [json_annotation][2] libraries inside your `pubspec.yaml` file.
+Make sure you have the [`json_serializable`][1] and [`json_annotation`][2] libraries inside your `pubspec.yaml` file.
 
 ## Usage 🚀
 
