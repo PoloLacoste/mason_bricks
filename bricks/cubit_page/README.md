@@ -4,7 +4,7 @@ Generate a new Cubit page using the [bloc state management library][1].
 
 ## 🚧 Requirements
 
-Make sure you have the [`bloc`][1] library inside your `pubspec.yaml` file.
+Make sure you have the [`bloc`][2] and [flutter_bloc][3] library inside your `pubspec.yaml` file.
 
 ## Usage 🚀
 
@@ -34,3 +34,5 @@ Generated folder architecture with name `home`:
     └── ...
 
 [1]: https://github.com/felangel/bloc
+[2]: https://github.com/felangel/bloc/tree/master/packages/bloc
+[2]: https://github.com/felangel/bloc/tree/master/packages/flutter_bloc
