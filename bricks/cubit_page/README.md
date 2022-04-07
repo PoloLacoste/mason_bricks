@@ -20,7 +20,7 @@ mason make cubit_page -o ./output-path --name page_name
 
 ## Output 📦
 
-Generated folder architecture with page name `home`:
+Generated folder architecture with name `home`:
 
     .
     ├── home

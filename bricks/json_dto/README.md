@@ -20,7 +20,7 @@ mason make json_dto -o ./output-path --name dto_name
 
 ## Output 📦
 
-Generated file example with the name `ExampleDto`:
+Generated file example with the name `Example`:
 
 ```dart
 import 'package:json_annotation/json_annotation.dart';
