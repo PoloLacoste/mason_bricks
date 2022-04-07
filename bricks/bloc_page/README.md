@@ -4,7 +4,7 @@ Generate a new Bloc page using the [bloc state management library][1].
 
 ## 🚧 Requirements
 
-Make sure you have the [`bloc`][2] and [flutter_bloc][3] library inside your `pubspec.yaml` file.
+Make sure you have the [`bloc`][2] and [`flutter_bloc`][3] library inside your `pubspec.yaml` file.
 
 ## Usage 🚀
 
