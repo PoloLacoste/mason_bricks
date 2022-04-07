@@ -44,4 +44,4 @@ flutter pub run build_runner build
 ```
 
 [1]: https://github.com/google/json_serializable.dart/tree/master/json_serializable
-[1]: https://github.com/google/json_serializable.dart/tree/master/json_annotation
+[2]: https://github.com/google/json_serializable.dart/tree/master/json_annotation
