@@ -4,7 +4,7 @@ A simple JSON Data Object using `json_annotation` and `json_serializable` packag
 
 ## 🚧 Requirements
 
-Make sure you have the [`bloc`](https://github.com/felangel/bloc) library inside your `pubspec.yaml` file.
+Make sure you have the [`json_serializable`][1] and [json_annotation][2] libraries inside your `pubspec.yaml` file.
 
 ## Usage 🚀
 
@@ -42,3 +42,6 @@ After that you will need to generate the `fromJson` and `toJson` methods of the 
 ```sh
 flutter pub run build_runner build
 ```
+
+[1]: https://github.com/google/json_serializable.dart/tree/master/json_serializable
+[1]: https://github.com/google/json_serializable.dart/tree/master/json_annotation
