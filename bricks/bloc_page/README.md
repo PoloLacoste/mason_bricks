@@ -36,4 +36,4 @@ Generated folder architecture with name `home`:
 
 [1]: https://github.com/felangel/bloc
 [2]: https://github.com/felangel/bloc/tree/master/packages/bloc
-[2]: https://github.com/felangel/bloc/tree/master/packages/flutter_bloc
+[3]: https://github.com/felangel/bloc/tree/master/packages/flutter_bloc
