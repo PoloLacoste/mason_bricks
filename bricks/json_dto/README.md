@@ -2,9 +2,23 @@
 
 A simple JSON Data Object using `json_annotation` and `json_serializable` packages.
 
+## 🚧 Requirements
+
+Make sure you have the [`bloc`](https://github.com/felangel/bloc) library inside your `pubspec.yaml` file.
+
+## Usage 🚀
+
 ```sh
-mason make json_dto -o ./output-path
+mason make json_dto -o ./output-path --name dto_name
 ```
+
+## Variables ✨
+
+| Variable | Description                | Required   | Type     |
+| -------- | -------------------------- | ---------- | -------- |
+| `name`   | The name of the JSON Dto   | `Yes`      | `string` |
+
+## Output 📦
 
 Generated file example with the name `ExampleDto`:
 

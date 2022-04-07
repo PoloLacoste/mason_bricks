@@ -1,5 +1,6 @@
 name: cubit_page
 description: A brick to create a page with view and cubit
+repository: https://github.com/PoloLacoste/mason_bricks/tree/main/bricks/cubit_page
 
 version: 0.1.0
 

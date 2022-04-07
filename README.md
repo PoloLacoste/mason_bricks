@@ -19,20 +19,27 @@ Install [mason](https://pub.dev/packages/mason)
 dart pub global activate mason_cli
 ```
 
-Install the bricks
+Bricks can be installed from [brickhub.dev](https://brickhub.dev).
+
+Install a brick
 ```sh
-mason add -g cubit_page --git-url https://github.com/PoloLacoste/mason_bricks --git-path bricks/cubit_page
-mason add -g bloc_page --git-url https://github.com/PoloLacoste/mason_bricks --git-path bricks/bloc_page
-mason add -g app --git-url https://github.com/PoloLacoste/mason_bricks --git-path bricks/app
-mason add -g json_dto --git-url https://github.com/PoloLacoste/mason_bricks --git-path bricks/json_dto
+mason add <BRICK>
 ```
 
-## 🧱 Bricks documentation
+Install a brick globally
+```sh
+mason add -g <BRICK>
+```
 
-* [Cubit page](https://github.com/PoloLacoste/mason_bricks/tree/main/bricks/cubit_page)
-* [Bloc page](https://github.com/PoloLacoste/mason_bricks/tree/main/bricks/bloc_page)
-* [Clean Architecture Application](https://github.com/PoloLacoste/mason_bricks/tree/main/bricks/app)
-* [JSON Dto](https://github.com/PoloLacoste/mason_bricks/tree/main/bricks/json_dto)
+## 🧱 Bricks 
+
+| Brick                                                                                   | Description                                   |
+|-----------------------------------------------------------------------------------------|-----------------------------------------------|
+| [`cubit_page`](https://github.com/PoloLacoste/mason_bricks/tree/main/bricks/cubit_page) | Generate a new Cubit page                     |
+| [`bloc_page`](https://github.com/PoloLacoste/mason_bricks/tree/main/bricks/bloc_page)   | Generate a new Bloc page                      |
+| [`json_dto`](https://github.com/PoloLacoste/mason_bricks/tree/main/bricks/json_dto)     | Generate a new JSON Dto                       |
+| [`app`]((https://github.com/PoloLacoste/mason_bricks/tree/main/bricks/app))             | Generate a new Clean Architecture Application |
+
 
 ## 🙇 Special Thanks
 

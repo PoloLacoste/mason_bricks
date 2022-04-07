@@ -1,5 +1,6 @@
 name: app
 description: A brick to create a clean architecture app
+repository: https://github.com/PoloLacoste/mason_bricks/tree/main/bricks/app
 
 version: 0.1.0
 

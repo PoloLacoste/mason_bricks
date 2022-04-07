@@ -3,8 +3,16 @@
 Simple clean architecture app, inspired by [very_good_cli](https://github.com/VeryGoodOpenSource/very_good_cli) and [resocoder](https://resocoder.com/2019/08/27/flutter-tdd-clean-architecture-course-1-explanation-project-structure/).
 
 ```sh
-mason make app -o ./output-path --on-conflict overwrite
+mason make app -o ./output-path --on-conflict overwrite --name app_name
 ```
+
+## Variables ✨
+
+| Variable | Description                      | Required | Type     |
+|----------|----------------------------------|----------|----------|
+| `name`   | The name of the application name | `Yes`    | `string` |
+
+## Output 📦
 
 Generated folder architecture:
 

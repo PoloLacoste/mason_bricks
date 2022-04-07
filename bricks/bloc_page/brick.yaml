@@ -1,5 +1,6 @@
 name: bloc_page
 description: A brick to create a page with view and bloc
+repository: https://github.com/PoloLacoste/mason_bricks/tree/main/bricks/bloc_page
 
 version: 0.1.0
 
