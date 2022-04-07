@@ -29,10 +29,10 @@ mason add -g json_dto --git-url https://github.com/PoloLacoste/mason_bricks --gi
 
 ## 🧱 Bricks documentation
 
-* [Cubit page](https://github.com/PoloLacoste/mason_bricks/bricks/cubit_page/README.md)
-* [Bloc page](https://github.com/PoloLacoste/mason_bricks/bricks/bloc_page/README.md)
-* [Clean Architecture Application](https://github.com/PoloLacoste/mason_bricks/bricks/app/README.md)
-* [JSON Dto](https://github.com/PoloLacoste/mason_bricks/bricks/json_dto/README.md)
+* [Cubit page](https://github.com/PoloLacoste/mason_bricks/tree/main/bricks/cubit_page)
+* [Bloc page](https://github.com/PoloLacoste/mason_bricks/tree/main/bricks/bloc_page)
+* [Clean Architecture Application](https://github.com/PoloLacoste/mason_bricks/tree/main/bricks/app)
+* [JSON Dto](https://github.com/PoloLacoste/mason_bricks/tree/main/bricks/json_dto)
 
 ## 🙇 Special Thanks
 
