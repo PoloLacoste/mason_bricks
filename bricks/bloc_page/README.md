@@ -14,9 +14,9 @@ mason make bloc_page -o ./output-path --name page_name
 
 ## Variables ✨
 
-| Variable | Description                | Required   | Type     |
-| -------- | -------------------------- | ---------- | -------- |
-| `name`   | The name of the bloc page  | `Yes`      | `string` |
+| Variable | Description               | Default   | Type     |
+|----------|---------------------------|-----------|----------|
+| `name`   | The name of the bloc page | `Counter` | `string` |
 
 ## Output 📦
 

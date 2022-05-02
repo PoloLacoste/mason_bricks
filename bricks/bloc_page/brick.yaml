@@ -11,4 +11,5 @@ vars:
   name:
     type: string
     description: Page name
+    default: Counter
     prompt: What is the name of your page?
