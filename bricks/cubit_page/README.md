@@ -14,9 +14,9 @@ mason make cubit_page -o ./output-path --name page_name
 
 ## Variables ✨
 
-| Variable | Description                | Required   | Type     |
-| -------- | -------------------------- | ---------- | -------- |
-| `name`   | The name of the cubit page | `Yes`      | `string` |
+| Variable | Description                | Default   | Type     |
+|----------|----------------------------|-----------|----------|
+| `name`   | The name of the cubit page | `Counter` | `string` |
 
 ## Output 📦
 
