@@ -2,7 +2,7 @@ name: cubit_page
 description: A brick to create a page with view and cubit
 repository: https://github.com/PoloLacoste/mason_bricks/tree/main/bricks/cubit_page
 
-version: 0.1.0
+version: 0.2.0
 
 environment:
   mason: ">=0.1.0-dev <0.1.0"
@@ -11,4 +11,5 @@ vars:
   name:
     type: string
     description: Page name
+    default: Counter
     prompt: What is the name of your page?
