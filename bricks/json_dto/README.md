@@ -14,9 +14,9 @@ mason make json_dto -o ./output-path --name dto_name
 
 ## Variables ✨
 
-| Variable | Description                | Required   | Type     |
-| -------- | -------------------------- | ---------- | -------- |
-| `name`   | The name of the JSON Dto   | `Yes`      | `string` |
+| Variable | Description              | Default   | Type     |
+|----------|--------------------------|-----------|----------|
+| `name`   | The name of the JSON Dto | `Counter` | `string` |
 
 ## Output 📦
 

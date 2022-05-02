@@ -1,4 +1,4 @@
-# 0.1.2
+# 0.2.0
 
 - Default value to counter
 - Update to use new shorthand syntax
