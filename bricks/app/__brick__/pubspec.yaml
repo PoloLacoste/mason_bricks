@@ -1,4 +1,4 @@
-name: {{#snakeCase}}{{name}}{{/snakeCase}}
+name: {{name.snakeCase()}}
 description: Flutter application
 publish_to: 'none'
 
@@ -20,7 +20,7 @@ dependencies:
   bloc: ^8.0.3
   flutter_bloc: ^8.0.1
   equatable: ^2.0.3
-  path: ^1.8.0
+  path: ^1.8.1
   intl: ^0.17.0
   dartz: ^0.10.1
 

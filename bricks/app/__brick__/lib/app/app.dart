@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'package:{{#snakeCase}}{{name}}{{/snakeCase}}/core/constants/app.dart';
-import 'package:{{#snakeCase}}{{name}}{{/snakeCase}}/core/locator.dart';
-import 'package:{{#snakeCase}}{{name}}{{/snakeCase}}/l10n/l10n.dart';
+import 'package:{{name.snakeCase()}}/core/constants/app.dart';
+import 'package:{{name.snakeCase()}}/core/locator.dart';
+import 'package:{{name.snakeCase()}}/l10n/l10n.dart';
 
 import 'router.dart';
 

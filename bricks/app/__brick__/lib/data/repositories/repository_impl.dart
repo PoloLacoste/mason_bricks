@@ -1,4 +1,4 @@
-import 'package:{{#snakeCase}}{{name}}{{/snakeCase}}/domain/repositories/repository.dart';
+import 'package:{{name.snakeCase()}}/core/locator.dart';
 
 class RepositoryImpl extends Repository {
 

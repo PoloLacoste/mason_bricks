@@ -8,9 +8,9 @@ mason make app -o ./output-path --on-conflict overwrite --name app_name
 
 ## Variables ✨
 
-| Variable | Description                      | Required | Type     |
-|----------|----------------------------------|----------|----------|
-| `name`   | The name of the application name | `Yes`    | `string` |
+| Variable | Description                      | Default   | Type     |
+|----------|----------------------------------|-----------|----------|
+| `name`   | The name of the application name | `Counter` | `string` |
 
 ## Output 📦
 
