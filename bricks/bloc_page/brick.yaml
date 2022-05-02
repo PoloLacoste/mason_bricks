@@ -2,7 +2,7 @@ name: bloc_page
 description: A brick to create a page with view and bloc
 repository: https://github.com/PoloLacoste/mason_bricks/tree/main/bricks/bloc_page
 
-version: 0.1.0
+version: 0.2.0
 
 environment:
   mason: ">=0.1.0-dev <0.1.0"
