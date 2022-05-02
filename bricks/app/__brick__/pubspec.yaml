@@ -20,7 +20,7 @@ dependencies:
   bloc: ^8.0.3
   flutter_bloc: ^8.0.1
   equatable: ^2.0.3
-  path: ^1.8.1
+  path: ^1.8.0
   intl: ^0.17.0
   dartz: ^0.10.1
 
